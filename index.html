@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 e CSS3 - One page site</title>
+    <meta
+      name="description"
+      content="Etinerario: Piratininga, IAPI e Rochdalle"
+    />
+    <!--O maçimo de caracter que pode por é 155-->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Ao digitar crtl+k em seguida crtl+c, ele cria a opção de comentario -->
+    <!-- Cabeçalho -->
+    <header id="inicio">
+      <div class="container Flex">
+        <div id="logo">
+          <img src="img/logo.png" alt="hal 9000" />
+        </div>
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check">&#x268c;</label>
+          <!-- Ao digitar ul>li*qtopção>a ele cria uma lista de menus com o link ja colocado -->
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#conteudo">Conteudo</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Destaque -->
+    <main>
+      <div class="container">
+        <h1>HTML5 e CSS3</h1>
+        <h2>Você faz, Você vê, Você aprende</h2>
+        <a
+          href="https://www.youtube.com/watch?v=bS720dGvAn8&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk"
+          target="_blank"
+          class="Botao"
+          >Saiba +</a
+        >
+      </div>
+    </main>
+
+    <!-- Sobre -->
+    <section id="sobre">
+      <div class="container Flex2">
+        <div id="destaqueSobre">
+          <img src="img/html5css3.jpg" alt="htmlcss3" />
+        </div>
+        <div id="textoSobre">
+          <h2>Aprender na pratica</h2>
+          <p>
+            Aprenda HTML5, CSS3 e SEO de forma simples, pratica e objetiva
+            desenvolvendo passo a passo do zero até a hospedagem um site one
+            page moderno e responsivo.
+          </p>
+          <div class="TopicosSobre Flex2">
+            <img src="img/html5.png" alt="html5" />
+            <p>HTML5</p>
+          </div>
+          <div class="TopicosSobre Flex2">
+            <img src="img/css3.png" alt="css3" />
+            <p>CSS3</p>
+          </div>
+          <div class="TopicosSobre Flex2">
+            <img src="img/seo.png" alt="seo" />
+            <p>SEO</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- One Page -->
+    <section id="onepage">
+      <div class="container Flex3">
+        <div id="textoSite">
+          <h2>One page site</h2>
+          <p>
+            Ideal para negócios de pequeno ou médio porte o "one page site" é um
+            site onde você inclui todas as informações que o visitante precisa
+            de forma objetiva e criativa em uma única página.
+          </p>
+        </div>
+        <div id="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/bS720dGvAn8"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wireframe -->
+    <section id="wireframe">
+      <div class="container Flex2">
+          <div id="textoWire">
+            <h2>Wireframe</h2>
+            <p>Wireframe é uma representação visual da estrutura básica de uma página. Ele deve ser feito da maneira mais simples possível, mostrando apenas o essencial, como uma espécie de rascunho, sem cores ou imagens. Clique no botão <span>ou escaneie o QR Code </span>para obter o wireframe desta página.</p>
+            <a href="wireframe.pdf" target="_blank" class="Botao">PDF</a>
+          </div>
+          <div id="qrcode">
+              <img src="img/qrcode.png" alt="qrcode">
+          </div>
+        
+      </div>
+    </section>
+
+    <!-- Conteudo -->
+    <section id="conteudo">
+      <div class="container">
+        <h2>Conteudo</h2>
+        <h3>HTML5</h3>
+        <h3>BOX MODEL CSS</h3>
+        <h3>BREAKPOINTS</h3>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+      <div class="container"></div>
+    </footer>
+    <a href="#inicio" id="topo"
+      ><img src="img/topo.png" alt="topo do site"
+    /></a>
+  </body>
+</html>
